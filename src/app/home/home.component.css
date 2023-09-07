@@ -1,17 +1,26 @@
-.taskContainer {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.nav {
     background-color: #F0F2F5;
     border-radius: 5px;
     padding: 20px 5px 5px 20px;
     margin-bottom: 10px;
 }
 
-.main{
+.main {
     background-color: #F0F2F5;
     padding: 15px;
     border-radius: 5px;
 }
 
-.taskContainer{
+.task {
     background-color: white;
     border: 1px solid gray;
     border-radius: 5px;

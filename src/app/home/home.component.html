@@ -2,52 +2,72 @@
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <div *ngFor="let x of ToDo" class="taskContainer">
-                    <div class="task headerTask">
-                        <h3>{{x.name}}</h3>
-                    </div>
-                    <div class="task mainTask">
-                        <div class="contentTask">
-                            <p>{{x.content}}</p>
+                <div class="nav">
+                    <h3>To Do</h3>
+                </div>
+                <div class="main">
+                    <div *ngFor="let x of ToDo" class="task">
+                        <div>
+                            <h3>{{x.name}}</h3>
+                        </div>
+                        <div>
+                            <div>
+                                <p>{{x.content}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-3">
-                <div *ngFor="let y of InProgress" class="taskContainer">
-                    <div class="task headerTask">
-                        <h3>{{y.name}}</h3>
-                    </div>
-                    <div class="task mainTask">
-                        <div class="contentTask">
-                            <p>{{y.content}}</p>
+                <div class="nav">
+                    <h3>In Progess</h3>
+                </div>
+                <div class="main">
+                    <div *ngFor="let y of InProgress" class="task">
+                        <div>
+                            <h3>{{y.name}}</h3>
+                        </div>
+                        <div>
+                            <div>
+                                <p>{{y.content}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-3">
-                <div *ngFor="let z of InReview" class="taskContainer">
-                    <div class="task headerTask">
-                        <h3>{{z.name}}</h3>
-                    </div>
-                    <div class="task mainTask">
-                        <div class="contentTask">
-                            <p>{{z.content}}</p>
+                <div class="nav">
+                    <h3>In Review</h3>
+                </div>
+                <div class="main">
+                    <div *ngFor="let z of InReview" class="task">
+                        <div>
+                            <h3>{{z.name}}</h3>
+                        </div>
+                        <div>
+                            <div>
+                                <p>{{z.content}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-3">
-                <div *ngFor="let c of Done" class="taskContainer">
-                    <div class="task headerTask">
-                        <h3>{{c.name}}</h3>
-                    </div>
-                    <div class="task mainTask">
-                        <div class="contentTask">
-                            <p>{{c.content}}</p>
+                <div class="nav">
+                    <h3>Done</h3>
+                </div>
+                <div class="main">
+                    <div *ngFor="let c of Done" class="task">
+                        <div>
+                            <h3>{{c.name}}</h3>
+                        </div>
+                        <div>
+                            <div>
+                                <p>{{c.content}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
