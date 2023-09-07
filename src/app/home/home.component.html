@@ -1,0 +1,58 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div *ngFor="let x of ToDo" class="taskContainer">
+                    <div class="task headerTask">
+                        <h3>{{x.name}}</h3>
+                    </div>
+                    <div class="task mainTask">
+                        <div class="contentTask">
+                            <p>{{x.content}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div *ngFor="let y of InProgress" class="taskContainer">
+                    <div class="task headerTask">
+                        <h3>{{y.name}}</h3>
+                    </div>
+                    <div class="task mainTask">
+                        <div class="contentTask">
+                            <p>{{y.content}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div *ngFor="let z of InReview" class="taskContainer">
+                    <div class="task headerTask">
+                        <h3>{{z.name}}</h3>
+                    </div>
+                    <div class="task mainTask">
+                        <div class="contentTask">
+                            <p>{{z.content}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div *ngFor="let c of Done" class="taskContainer">
+                    <div class="task headerTask">
+                        <h3>{{c.name}}</h3>
+                    </div>
+                    <div class="task mainTask">
+                        <div class="contentTask">
+                            <p>{{c.content}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

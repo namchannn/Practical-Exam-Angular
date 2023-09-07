@@ -1,0 +1,20 @@
+.taskContainer {
+    background-color: #F0F2F5;
+    border-radius: 5px;
+    padding: 20px 5px 5px 20px;
+    margin-bottom: 10px;
+}
+
+.main{
+    background-color: #F0F2F5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.taskContainer{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px 10px 10px;
+    margin-top: 10px;
+}
